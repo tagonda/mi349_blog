@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Personal Blog</title>
+</head>
+<body>
+    <header>
+        <h1>My Personal Blog! <img src="https://64.media.tumblr.com/9a6ec7a37b1619cb7a74afadec51e326/8e5ed3a31c29566d-be/s75x75_c1/1a36b25720df8aec1927022d880061d8168c7770.gifv" alt="Blog icon" width="27" height="27" style="vertical-align: middle;"></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            
+            <p>I'd love to hear from you! Whether you have feedback on a blog post or want to share your own experiences, please don't hesitate to reach out.</p>
+
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="reason">Reason for Contact:</label>
+                    <select id="reason" name="reason" required>
+                        <option value="">Please select...</option>
+                        <option value="saying-hi">Saying hi</option>
+                        <option value="looking-for-contractor">Looking for a contractor</option>
+                        <option value="interested-in-interview">Interested in an interview</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" cols="50" placeholder="Your message here..."></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+
+            <p>I try to respond to all messages within 3 seconds. Thank you for taking the time to reach out!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Personal Blog. All rights reserved. And I mean all...</p>
+    </footer>
+</body>
+</html>
