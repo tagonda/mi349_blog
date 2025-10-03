@@ -144,11 +144,12 @@
             <section>
                 <h3>Newsletter Signup</h3>
                 <p>Stay updated with my latest blog posts and riveting thoughts! :D</p>
-                <form name="newsletter" method="POST" data-netlify="true">
+                <form id="newsletter-form" name="newsletter" method="POST" data-netlify="true">
                     <label for="email-signup">Email Address:</label>
                     <input type="email" id="email-signup" name="email" required>
                     <button type="submit">Subscribe</button>
                 </form>
+                <p id="success-message" style="display: none; color: green;">Thank you for subscribing!</p>
             </section>
         </aside>
     </main>
